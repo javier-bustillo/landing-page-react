@@ -3,7 +3,11 @@ import React from "react";
 const Card = () => {
 	return (
 		<div className="card mt-3">
-			<img src="" className="card-img-top" alt="..." />
+			<img
+				src="https://picsum.photos/seed/picsum/75/50"
+				className="card-img-top"
+				alt="random image"
+			/>
 			<div className="card-body text-center">
 				<div>
 					<h5 className="card-title fs-5 p-2">Card title</h5>

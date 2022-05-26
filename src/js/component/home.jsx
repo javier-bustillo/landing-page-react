@@ -3,13 +3,13 @@ import React from "react";
 import Navbar from "./navbar.js";
 import Jumbotron from "./jumbotron.js";
 import Card from "./card.js";
+import Footer from "./footer";
 
 const Home = () => {
 	return (
 		<>
-			<div className="container-fluid">
-				<Navbar />
-			</div>
+			<Navbar />
+
 			<div className="container">
 				<Jumbotron />
 				<div className="row d-flex justify-content-between">
@@ -26,8 +26,9 @@ const Home = () => {
 						<Card />
 					</div>
 				</div>
-				<Footer />
 			</div>
+
+			<Footer />
 		</>
 	);
 };

@@ -3,7 +3,7 @@ import React from "react";
 const Jumbotron = () => {
 	return (
 		<div
-			className="bg-primary text-dark bg-light p-5 "
+			className="bg-primary text-dark bg-light p-5"
 			style={{ height: "325px" }}>
 			<h1 className="h-1 fw-bolder">A Warm Welcome!</h1>
 			<p className="pt-3">
