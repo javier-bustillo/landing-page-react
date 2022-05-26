@@ -4,7 +4,6 @@ import Navbar from "./navbar.js";
 import Jumbotron from "./jumbotron.js";
 import Card from "./card.js";
 
-//create your first component
 const Home = () => {
 	return (
 		<>
@@ -16,6 +15,9 @@ const Home = () => {
 					<Jumbotron />
 				</div>
 				<div>
+					<Card />
+					<Card />
+					<Card />
 					<Card />
 				</div>
 			</div>
