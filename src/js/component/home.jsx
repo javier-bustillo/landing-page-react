@@ -11,15 +11,22 @@ const Home = () => {
 				<Navbar />
 			</div>
 			<div className="container">
-				<div>
-					<Jumbotron />
+				<Jumbotron />
+				<div className="row d-flex justify-content-between">
+					<div className="col">
+						<Card />
+					</div>
+					<div className="col">
+						<Card />
+					</div>
+					<div className="col">
+						<Card />
+					</div>
+					<div className="col">
+						<Card />
+					</div>
 				</div>
-				<div>
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-				</div>
+				<Footer />
 			</div>
 		</>
 	);

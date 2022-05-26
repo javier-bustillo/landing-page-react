@@ -5,7 +5,9 @@ const Navbar = () => {
 		<>
 			<nav class="navbar navbar-expand-lg bg-dark m-0 p-2">
 				<div class="container-fluid">
-					<a class="navbar-brand text-white ms-5 ps-5" href="#">
+					<a
+						class="navbar-brand text-white fs-5 fw-bold ms-5 ps-5"
+						href="#">
 						Start Bootstrap
 					</a>
 					<button
@@ -45,7 +47,9 @@ const Navbar = () => {
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link active text-white-50">
+								<a
+									class="nav-link active text-white-50"
+									href="#">
 									Contact
 								</a>
 							</li>
